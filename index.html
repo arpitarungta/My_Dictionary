@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Smart Dictionary | JavaScript App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-book-reader"></i> WhatTheWord
+      </a>
+    </div>
+  </nav>
+
+  <section class="intro-section text-center py-4">
+    <h1 class="display-6 fw-bold text-dark">English Dictionary Lookup</h1>
+    <p class="text-muted">The meaning behind every word — one search away.</p>
+  </section>
+
+  <div class="wrapper">
+    <div class="search">
+      <input type="text" placeholder="Search a word..." required spellcheck="false">
+      <i class="fas fa-search" id="search-icon"></i>
+      <span class="material-icons">close</span>
+    </div>
+
+    <p class="info-text">Type a valid English word and press search icon to get definitions, examples, and synonyms.</p>
+
+    <div class="results-container">
+    <ul>
+        <li class="word">
+        <div class="details">
+            <p class="searched-word">__</p>
+            <span class="phonetic">_ _</span>
+        </div>
+        <i class="fas fa-volume-up audio-icon"></i>
+        </li>
+
+        <div class="content">
+        <li class="meaning">
+            <div class="details">
+            <p>Meaning</p>
+            <span class="meaning-text">___</span>
+            </div>
+        </li>
+        <li class="example">
+            <div class="details">
+            <p>Example</p>
+            <span class="example-text">___</span>
+            </div>
+        </li>
+        <li class="synonyms">
+            <div class="details">
+            <p>Synonyms</p>
+            <div class="list">None</div>
+            </div>
+        </li>
+        </div>
+    </ul>
+</div>
+
+  </div>
+
+  <footer class="footer text-center py-3 mt-5 bg-dark text-white">
+    <p class="mb-0">Made with ❤️ by Arpita | Powered by Dictionary API</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
