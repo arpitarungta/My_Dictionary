@@ -16,7 +16,7 @@ A sleek, responsive dictionary web app that lets you search for English word def
 
 ### 💻 Live Demo
 Check it out here:  
-👉 [https://your-username.github.io/smart-dictionary/](https://your-username.github.io/smart-dictionary/)
+👉 https://arpitarungta.github.io/My_Dictionary/
 
 ---
 
