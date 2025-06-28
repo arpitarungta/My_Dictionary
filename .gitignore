@@ -1,0 +1,15 @@
+# macOS junk
+.DS_Store
+
+# Windows junk
+Thumbs.db
+desktop.ini
+
+# VS Code settings
+.vscode/
+
+# Python cache (if you ever use it)
+__pycache__/
+
+# Node modules (just in case)
+node_modules/
